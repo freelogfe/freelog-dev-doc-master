@@ -32,6 +32,13 @@ module.exports = [
             {title: '搜索关键字智能提示', path: 'resourceV2/搜索关键字智能提示.md'},
             {title: '获取资源解压文件', path: 'resourceV2/获取资源解压文件.md'},
             {title: '批量查询资源授权结果', path: 'resourceV2/批量查询资源授权结果.md'},
+            {title: '创建资源标签', path: 'resourceV2/创建资源标签.md'},
+            {title: '分页查看资源标签列表', path: 'resourceV2/分页查看资源标签列表.md'},
+            {title: '批量更新资源标签', path: 'resourceV2/批量更新资源标签.md'},
+            {title: '批量统计资源标签使用数量', path: 'resourceV2/批量统计资源标签使用数量.md'},
+            {title: '批量设置或移除资源标签', path: 'resourceV2/批量设置或移除资源标签.md'},
+            {title: '批量查询资源冻结记录', path: 'resourceV2/批量查询资源冻结记录.md'},
+            {title: '批量冻结或解封资源', path: 'resourceV2/批量冻结或解封资源.md'}
         ]
     },
     {
@@ -54,6 +61,7 @@ module.exports = [
             {title: '查看标签列表', path: 'userV2/查看标签列表.md'},
             {title: '设置用户标签', path: 'userV2/设置用户标签.md'},
             {title: '取消用户标签', path: 'userV2/取消用户标签.md'},
+            {title: '批量设置用户标签', path: 'userV2/批量设置用户标签.md'},
             {title: '修改用户详细信息', path: 'userV2/修改用户详细信息.md'},
             {title: '冻结或恢复用户', path: 'userV2/冻结或恢复用户.md'},
             {title: '校验当前登录用户的密码', path: 'userV2/校验当前登录用户的密码.md'},
@@ -127,7 +135,8 @@ module.exports = [
             {title: '删除收藏的资源', path: 'collectionV2/删除收藏的资源.md'},
             {title: '查看收藏的资源详情', path: 'collectionV2/查看收藏的资源详情.md'},
             {title: '批量查询资源是否收藏', path: 'collectionV2/批量查询资源是否收藏.md'},
-            {title: '查询资源总收藏数量', path: 'collectionV2/查询资源总收藏数量.md'}
+            {title: '查询资源总收藏数量', path: 'collectionV2/查询资源总收藏数量.md'},
+            {title: '批量查询资源总收藏数量', path: 'collectionV2/批量查询资源总收藏数量.md'}
         ]
     },
     {
@@ -136,7 +145,7 @@ module.exports = [
         children: [
             {title: '创建授权策略', path: 'policyV2/创建授权策略.md'},
             {title: '批量获取授权策略列表', path: 'policyV2/批量获取授权策略列表.md'},
-            {title: '查看授权策略详情', path: 'policyV2/查看授权策略详情.md'}
+            {title: '查看授权策略详情', path: 'policyV2/查看授权策略详情.md'},
         ]
     },
     {
@@ -151,7 +160,9 @@ module.exports = [
             {title: '查看用户签约数量', path: 'contractV2/查看用户签约数量.md'},
             {title: '统计标的物签约量', path: 'contractV2/统计标的物签约量.md'},
             {title: '查看标的物签约数量', path: 'contractV2/查看标的物签约数量.md'},
-            {title: '查看合同流转记录分页列表', path: 'contractV2/查看合同流转记录分页列表.md'}
+            {title: '查看合同流转记录分页列表', path: 'contractV2/查看合同流转记录分页列表.md'},
+            {title: '统计甲方的标的物签约量', path: 'contractV2/统计甲方的标的物签约量.md'},
+			{title: '分页搜索合同列表', path: 'contractV2/分页搜索合同列表.md'},
         ]
     },
     {
@@ -175,10 +186,11 @@ module.exports = [
             {title: '删除节点标签', path: 'nodeV2/删除节点标签.md'},
             {title: '编辑节点标签', path: 'nodeV2/编辑节点标签.md'},
             {title: '查看标签列表', path: 'nodeV2/查看标签列表.md'},
-            {title: '为指定节点设置标签', path: 'nodeV2/为指定节点设置标签.md'},
-            {title: '删除指定节点的标签', path: 'nodeV2/删除指定节点的标签.md'},
+            {title: '批量设置或移除节点标签', path: 'nodeV2/批量设置或移除节点标签.md'},
+            {title: '批量统计节点标签使用数量', path: 'nodeV2/批量统计节点标签使用数量.md'},
             {title: '冻结节点', path: 'nodeV2/冻结节点.md'},
-            {title: '解冻节点', path: 'nodeV2/解封节点.md'}
+            {title: '解冻节点', path: 'nodeV2/解封节点.md'},
+			{title: '批量查询节点冻结记录', path: 'nodeV2/批量查询节点冻结记录.md'},
         ]
     },
     {
@@ -212,6 +224,7 @@ module.exports = [
             {title: '查看合约应用的展品列表', path: 'presentableV2/查看合约应用的展品列表.md'},
             {title: '获取展品授权信息', path: 'presentableV2/获取展品授权信息.md'},
             {title: '批量获取展品授权结果', path: 'presentableV2/批量获取展品授权结果.md'},
+            {title: '批量查询节点创建的展品数量', path: 'presentableV2/批量查询节点创建的展品数量.md'},
         ]
     },
     {
@@ -245,7 +258,11 @@ module.exports = [
             {title: '激活个人账户', path: 'payV2/激活个人账户.md'},
             {title: '修改交易密码', path: 'payV2/修改交易密码.md'},
             {title: '重置交易密码', path: 'payV2/重置交易密码.md'},
-            {title: '校验交易密码', path: 'payV2/校验交易密码.md'}
+            {title: '校验交易密码', path: 'payV2/校验交易密码.md'},
+            {title: '批量查询用户交易次数', path: 'payV2/批量查询用户交易次数.md'},
+            {title: '批量查询用户账户信息', path: 'payV2/批量查询用户账户信息.md'},
+			{title: '分页查询账户交易记录', path: 'payV2/分页查询账户交易记录.md'},
+			{title: '根据交易记录查询交易流水', path: 'payV2/根据交易记录查询交易流水.md'},
         ]
     },
     {
@@ -269,6 +286,7 @@ module.exports = [
             {title: 'retCode', path: '附表/一级状态码.md'},
             {title: 'errCode', path: '附表/二级状态码.md'},
             {title: '用户角色', path: '附表/用户角色.md'},
+            {title: '用户状态', path: '附表/用户状态.md'},
             {title: '资源类型', path: '附表/资源类型.md'},
             {title: '合同相关枚举说明', path: '附表/合同相关枚举说明.md'},
             {title: '账户类型', path: '附表/账户类型.md'},
