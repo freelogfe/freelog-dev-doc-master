@@ -269,7 +269,16 @@ module.exports = [
         title: '运营活动',
         collapsable: true,
         children: [
-            {title: '领取免费羽币', path: 'activityV2/领取免费羽币.md'}
+            {title: '领取免费羽币', path: 'activityV2/领取免费羽币.md'},
+            {title: '运营广告接口文档', path: 'activityV2/运营广告接口文档.md'},
+            {title: '运营活动接口文档', path: 'activityV2/运营活动接口文档.md'}
+        ]
+    },
+    {
+        title: '国际化翻译',
+        collapsable: true,
+        children: [
+            {title: 'i18n接口文档', path: 'i18nV2/i18n接口文档.md'}
         ]
     },
     {
