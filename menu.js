@@ -271,7 +271,8 @@ module.exports = [
         children: [
             {title: '领取免费羽币', path: 'activityV2/领取免费羽币.md'},
             {title: '运营广告接口文档', path: 'activityV2/运营广告接口文档.md'},
-            {title: '运营活动接口文档', path: 'activityV2/运营活动接口文档.md'}
+            {title: '运营活动接口文档', path: 'activityV2/运营活动接口文档.md'},
+            {title: '运营活动接口文档_客户端', path: 'activityV2/运营活动接口文档_客户端.md'}
         ]
     },
     {
