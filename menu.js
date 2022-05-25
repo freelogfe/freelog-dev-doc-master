@@ -38,7 +38,8 @@ module.exports = [
             {title: '批量统计资源标签使用数量', path: 'resourceV2/批量统计资源标签使用数量.md'},
             {title: '批量设置或移除资源标签', path: 'resourceV2/批量设置或移除资源标签.md'},
             {title: '批量查询资源冻结记录', path: 'resourceV2/批量查询资源冻结记录.md'},
-            {title: '批量冻结或解封资源', path: 'resourceV2/批量冻结或解封资源.md'}
+            {title: '批量冻结或解封资源', path: 'resourceV2/批量冻结或解封资源.md'},
+            {title: '根据资源类型查看推荐的标签', path: 'resourceV2/根据资源类型查看推荐的标签.md'}
         ]
     },
     {
@@ -162,7 +163,7 @@ module.exports = [
             {title: '查看标的物签约数量', path: 'contractV2/查看标的物签约数量.md'},
             {title: '查看合同流转记录分页列表', path: 'contractV2/查看合同流转记录分页列表.md'},
             {title: '统计甲方的标的物签约量', path: 'contractV2/统计甲方的标的物签约量.md'},
-			{title: '分页搜索合同列表', path: 'contractV2/分页搜索合同列表.md'},
+            {title: '分页搜索合同列表', path: 'contractV2/分页搜索合同列表.md'},
         ]
     },
     {
@@ -190,7 +191,7 @@ module.exports = [
             {title: '批量统计节点标签使用数量', path: 'nodeV2/批量统计节点标签使用数量.md'},
             {title: '冻结节点', path: 'nodeV2/冻结节点.md'},
             {title: '解冻节点', path: 'nodeV2/解封节点.md'},
-			{title: '批量查询节点冻结记录', path: 'nodeV2/批量查询节点冻结记录.md'},
+            {title: '批量查询节点冻结记录', path: 'nodeV2/批量查询节点冻结记录.md'},
         ]
     },
     {
@@ -261,8 +262,8 @@ module.exports = [
             {title: '校验交易密码', path: 'payV2/校验交易密码.md'},
             {title: '批量查询用户交易次数', path: 'payV2/批量查询用户交易次数.md'},
             {title: '批量查询用户账户信息', path: 'payV2/批量查询用户账户信息.md'},
-			{title: '分页查询账户交易记录', path: 'payV2/分页查询账户交易记录.md'},
-			{title: '根据交易记录查询交易流水', path: 'payV2/根据交易记录查询交易流水.md'},
+            {title: '分页查询账户交易记录', path: 'payV2/分页查询账户交易记录.md'},
+            {title: '根据交易记录查询交易流水', path: 'payV2/根据交易记录查询交易流水.md'},
         ]
     },
     {
