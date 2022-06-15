@@ -283,6 +283,13 @@ module.exports = [
             {title: 'i18n接口文档', path: 'i18nV2/i18n接口文档.md'}
         ]
     },
+	{
+        title: '统计服务',
+        collapsable: true,
+        children: [
+            {title: '查询通用交易统计信息', path: 'statistics/查询通用交易统计信息.md'}
+        ]
+    },
     {
         title: '业务逻辑说明',
         collapsable: true,
