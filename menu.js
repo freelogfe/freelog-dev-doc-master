@@ -164,6 +164,7 @@ module.exports = [
             {title: '查看合同流转记录分页列表', path: 'contractV2/查看合同流转记录分页列表.md'},
             {title: '统计甲方的标的物签约量', path: 'contractV2/统计甲方的标的物签约量.md'},
             {title: '分页搜索合同列表', path: 'contractV2/分页搜索合同列表.md'},
+			{title: '通用合约签约量统计', path: 'contractV2/统计合约签约量.md'},
         ]
     },
     {
