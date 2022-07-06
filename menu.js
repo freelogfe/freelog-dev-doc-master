@@ -68,7 +68,8 @@ module.exports = [
             {title: '校验当前登录用户的密码', path: 'userV2/校验当前登录用户的密码.md'},
             {title: '获取省份列表', path: 'userV2/获取省份列表.md'},
             {title: '获取城市列表', path: 'userV2/获取城市列表.md'},
-            {title: '绑定或换绑手机号和邮箱', path: 'userV2/绑定或换绑手机号和邮箱.md'}
+            {title: '绑定或换绑手机号和邮箱', path: 'userV2/绑定或换绑手机号和邮箱.md'},
+			{title: '第三方登录相关接口', path: 'userV2/第三方登录.md'}
         ]
     },
     {
