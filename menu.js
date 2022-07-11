@@ -95,7 +95,8 @@ module.exports = [
             {title: '分页查看内测资格申请列表', path: 'betaTestV2/分页查看内测资格申请列表.md'},
             {title: '批量审核内测申请', path: 'betaTestV2/批量审核内测申请.md'},
             {title: '申请内测资格', path: 'betaTestV2/申请内测资格.md'},
-            {title: '查看内测资格申请详情', path: 'betaTestV2/查看内测资格申请详情.md'}
+            {title: '查看内测资格申请详情', path: 'betaTestV2/查看内测资格申请详情.md'},
+			{title: '修改用户邀请码使用次数', path: 'betaTestV2/修改用户邀请码使用次数.md'}
         ]
     },
     {
