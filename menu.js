@@ -39,7 +39,10 @@ module.exports = [
             {title: '批量设置或移除资源标签', path: 'resourceV2/批量设置或移除资源标签.md'},
             {title: '批量查询资源冻结记录', path: 'resourceV2/批量查询资源冻结记录.md'},
             {title: '批量冻结或解封资源', path: 'resourceV2/批量冻结或解封资源.md'},
-            {title: '根据资源类型查看推荐的标签', path: 'resourceV2/根据资源类型查看推荐的标签.md'}
+            {title: '根据资源类型查看推荐的标签', path: 'resourceV2/根据资源类型查看推荐的标签.md'},
+			{title: '查看运营资源分页列表', path: 'resourceV2/查看运营资源分页列表.md'},
+			{title: '批量删除资源运营属性', path: 'resourceV2/批量删除资源运营属性.md'},
+			{title: '批量设置资源运营属性', path: 'resourceV2/批量设置资源运营属性.md'}
         ]
     },
     {
