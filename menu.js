@@ -288,6 +288,13 @@ module.exports = [
         ]
     },
     {
+        title: '微信相关',
+        collapsable: true,
+        children: [
+            {title: '公众号接口文档_客户端', path: 'wechatV2/公众号接口文档_客户端.md'}
+        ]
+    },
+    {
         title: '国际化翻译',
         collapsable: true,
         children: [
