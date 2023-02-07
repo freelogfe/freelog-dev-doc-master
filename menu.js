@@ -40,9 +40,9 @@ module.exports = [
             {title: '批量查询资源冻结记录', path: 'resourceV2/批量查询资源冻结记录.md'},
             {title: '批量冻结或解封资源', path: 'resourceV2/批量冻结或解封资源.md'},
             {title: '根据资源类型查看推荐的标签', path: 'resourceV2/根据资源类型查看推荐的标签.md'},
-			{title: '查看运营资源分页列表', path: 'resourceV2/查看运营资源分页列表.md'},
-			{title: '批量删除资源运营属性', path: 'resourceV2/批量删除资源运营属性.md'},
-			{title: '批量设置资源运营属性', path: 'resourceV2/批量设置资源运营属性.md'}
+            {title: '查看运营资源分页列表', path: 'resourceV2/查看运营资源分页列表.md'},
+            {title: '批量删除资源运营属性', path: 'resourceV2/批量删除资源运营属性.md'},
+            {title: '批量设置资源运营属性', path: 'resourceV2/批量设置资源运营属性.md'}
         ]
     },
     {
@@ -72,7 +72,7 @@ module.exports = [
             {title: '获取省份列表', path: 'userV2/获取省份列表.md'},
             {title: '获取城市列表', path: 'userV2/获取城市列表.md'},
             {title: '绑定或换绑手机号和邮箱', path: 'userV2/绑定或换绑手机号和邮箱.md'},
-			{title: '第三方登录相关接口', path: 'userV2/第三方登录.md'}
+            {title: '第三方登录相关接口', path: 'userV2/第三方登录.md'}
         ]
     },
     {
@@ -99,7 +99,7 @@ module.exports = [
             {title: '批量审核内测申请', path: 'betaTestV2/批量审核内测申请.md'},
             {title: '申请内测资格', path: 'betaTestV2/申请内测资格.md'},
             {title: '查看内测资格申请详情', path: 'betaTestV2/查看内测资格申请详情.md'},
-			{title: '修改用户邀请码使用次数', path: 'betaTestV2/修改用户邀请码使用次数.md'}
+            {title: '修改用户邀请码使用次数', path: 'betaTestV2/修改用户邀请码使用次数.md'}
         ]
     },
     {
@@ -169,7 +169,7 @@ module.exports = [
             {title: '查看合同流转记录分页列表', path: 'contractV2/查看合同流转记录分页列表.md'},
             {title: '统计甲方的标的物签约量', path: 'contractV2/统计甲方的标的物签约量.md'},
             {title: '分页搜索合同列表', path: 'contractV2/分页搜索合同列表.md'},
-			{title: '通用合约签约量统计', path: 'contractV2/统计合约签约量.md'},
+            {title: '通用合约签约量统计', path: 'contractV2/统计合约签约量.md'},
         ]
     },
     {
@@ -301,7 +301,7 @@ module.exports = [
             {title: 'i18n接口文档', path: 'i18nV2/i18n接口文档.md'}
         ]
     },
-	{
+    {
         title: '统计服务',
         collapsable: true,
         children: [
@@ -342,6 +342,13 @@ module.exports = [
         children: [
             {title: '策略', path: '策略/策略.md'},
             {title: '组合', path: '策略/组合.md'}
+        ]
+    },
+    {
+        title: '补充',
+        collapsable: true,
+        children: [
+            {title: 'CICD使用说明', path: 'CICD使用说明/CICD使用说明.md'}
         ]
     }
 ]
