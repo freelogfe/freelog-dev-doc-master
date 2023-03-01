@@ -42,7 +42,11 @@ module.exports = [
             {title: '根据资源类型查看推荐的标签', path: 'resourceV2/根据资源类型查看推荐的标签.md'},
             {title: '查看运营资源分页列表', path: 'resourceV2/查看运营资源分页列表.md'},
             {title: '批量删除资源运营属性', path: 'resourceV2/批量删除资源运营属性.md'},
-            {title: '批量设置资源运营属性', path: 'resourceV2/批量设置资源运营属性.md'}
+            {title: '批量设置资源运营属性', path: 'resourceV2/批量设置资源运营属性.md'},
+            {title: '资源属性接口文档', path: 'resourceV2/资源属性接口文档.md'},
+            {title: '资源属性接口文档_补充', path: 'resourceV2/资源属性接口文档_补充.md'},
+            {title: '资源类型接口文档', path: 'resourceV2/资源类型接口文档.md'},
+            {title: '运营分类接口文档', path: 'resourceV2/运营分类接口文档.md'}
         ]
     },
     {
