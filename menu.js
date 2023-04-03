@@ -202,6 +202,7 @@ module.exports = [
             {title: '冻结节点', path: 'nodeV2/冻结节点.md'},
             {title: '解冻节点', path: 'nodeV2/解封节点.md'},
             {title: '批量查询节点冻结记录', path: 'nodeV2/批量查询节点冻结记录.md'},
+            {title: '设置节点信息', path: 'nodeV2/设置节点信息.md'}
         ]
     },
     {
