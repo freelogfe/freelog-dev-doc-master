@@ -46,34 +46,47 @@ https://api.freelog.com/v2/nodes/search
 | status | int | 节点状态(1:下线 2:上线 4:冻结) |
 | createDate | date | 创建日期 |
 | tags | string[] | 标签信息 |
+| nodeLogo | string | 节点图标 |
+| nodeTitle | string | 节点标题 |
+| nodeShortDescription | string | 节点简介 |
+| nodeVisibility | int | 访问权限 1：公开 2：私密 3：暂停 |
 
 
 ### 示例
 
 ```json
 {
-	"ret": 0,
-	"errCode": 0,
-	"errcode": 0,
-	"msg": "success",
-	"data": {
-		"skip": 0,
-		"limit": 10,
-		"totalItem": 1,
-		"dataList": [{
-			"nodeThemeId": "60a2242d4bc413003472674a",
-			"tags": ["tag2", "tag1", "tag3", "tag4"],
-			"auditStatus": 0,
-			"status": 2,
-			"nodeId": 80000000,
-			"nodeName": "节点01",
-			"nodeDomain": "node-01",
-			"ownerUserId": 50028,
-			"ownerUserName": "12345676789",
-			"createDate": "2020-10-12T09:16:28.919Z",
-			"updateDate": "2021-08-30T07:47:09.952Z",
-			"pageBuildId": "60a2242d4bc413003472674a"
-		}]
-	}
+  "ret": 0,
+  "errCode": 0,
+  "errcode": 0,
+  "msg": "success",
+  "data": {
+    "skip": 0,
+    "limit": 10,
+    "totalItem": 1,
+    "dataList": [
+      {
+        "nodeThemeId": "641a6d07a3366d002f5f49a6",
+        "nodeTestThemeId": "e510887cc5e01ead8e8e26366f1340d9",
+        "tags": [
+          "tag3"
+        ],
+        "auditStatus": 0,
+        "status": 2,
+        "nodeVisibility": 1,
+        "nodeId": 80000000,
+        "nodeName": "节点01",
+        "nodeDomain": "node-01",
+        "ownerUserId": 50028,
+        "ownerUserName": "12345676789",
+        "createDate": "2020-10-12T09:16:28.919Z",
+        "updateDate": "2023-04-03T03:46:13.762Z",
+        "nodeLogo": "",
+        "nodeShortDescription": "节点01的简介",
+        "nodeTitle": "节点01的标题",
+        "pageBuildId": "641a6d07a3366d002f5f49a6"
+      }
+    ]
+  }
 }
 ```
