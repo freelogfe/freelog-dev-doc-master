@@ -19,6 +19,7 @@ https://api.freelog.com/v2/storages/files/{sha1}/info
 | 参数 | 必选 | 类型及范围 | 说明 |
 | :--- | :--- | :--- | :--- |
 | sha1 | 必选 | string | 文件的sha1值 |
+| resourceTypeCode | 可选 | string | 资源类型编号 |
 
 
 
@@ -70,9 +71,10 @@ https://api.freelog.com/v2/storages/files/list/info
 
 ### 传入参数说明:
 
-| 参数 | 必选 | 类型及范围 | 说明                        |
-| :--- | :--- | :--------- | :-------------------------- |
-| sha1 | 必选 | string     | 文件的sha1值,多个用逗号分隔 |
+| 参数             | 必选 | 类型及范围 | 说明                        |
+| :--------------- | :--- | :--------- | :-------------------------- |
+| sha1             | 必选 | string     | 文件的sha1值,多个用逗号分隔 |
+| resourceTypeCode | 可选 | string     | 资源类型编号                |
 
 
 
