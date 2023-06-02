@@ -128,6 +128,8 @@ module.exports = [
             {title: '根据sha1查询文件是否存在', path: 'storage/根据sha1查询文件是否存在.md'},
             {title: '上传资源文件', path: 'storage/上传资源文件.md'},
             {title: '上传图片文件', path: 'storage/上传图片文件.md'},
+            {title: '下载资源文件', path: 'storage/下载资源文件.md'},
+            {title: '打包资源文件', path: 'storage/打包资源文件.md'},
             {title: '更新存储对象属性', path: 'storage/更新存储对象属性.md'},
             {title: '查看存储对象依赖树', path: 'storage/查看存储对象依赖树.md'},
             {title: '批量查询存储对象列表', path: 'storage/批量查询存储对象列表.md'},
